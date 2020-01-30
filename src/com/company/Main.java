@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	BmiCalculator bmi = new BmiCalculator(180,90);
+        System.out.println(bmi.calculate());
     }
 }
