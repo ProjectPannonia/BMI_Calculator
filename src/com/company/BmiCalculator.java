@@ -13,8 +13,8 @@ public class BmiCalculator {
     protected String calculate(){
         double weightPerThousand = height / 100;
         double bmi = weight / (weightPerThousand*weightPerThousand);
-
-        return "Your BMI is: " + bmi + ".\n" + result(bmi);
+        String bmiText = String.valueOf(bmi).substring(0,4);
+        return "Your BMI is: " + bmiText + "\n" + result(bmi);
     }
     private String result(double bmi){
         String result;
