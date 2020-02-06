@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae3bc87c-1fc3-48a6-be95-5efd14fed26b" name="Default Changelist" comment="" />
+    <list default="true" id="ae3bc87c-1fc3-48a6-be95-5efd14fed26b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BmiCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/BmiCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bmi/testBmiCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bmi/testBmiCalculator.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.testBmiCalculator">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bmi.Main" />
+      <module name="bmi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testBmiCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bmi" />
+      <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testBmiCalculator.testCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bmi" />
       <extension name="coverage">
@@ -63,8 +98,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testBmiCalculator.testSecondCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bmi" />
+      <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
+      <option name="METHOD_NAME" value="testSecondCalculator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testBmiCalculator.testThirdCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bmi" />
+      <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
+      <option name="METHOD_NAME" value="testThirdCalculator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testBmiCalculator" />
+        <item itemvalue="JUnit.testBmiCalculator.testThirdCalculator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.testBmiCalculator.testSecondCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testCalculator" />
       </list>
     </recent_temporary>
@@ -81,5 +152,27 @@
       <updated>1581018332254</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
