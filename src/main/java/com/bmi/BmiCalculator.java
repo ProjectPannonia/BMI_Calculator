@@ -1,7 +1,6 @@
-package com.company;
+package com.bmi;
 
 public class BmiCalculator {
-
     private double height;
     private double weight;
 
@@ -37,5 +36,4 @@ public class BmiCalculator {
         }
         return result;
     }
-
 }

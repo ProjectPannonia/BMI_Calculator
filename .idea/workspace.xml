@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c441bdbb-3665-4df5-8ac8-f191f5102b88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/BmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BmiCalculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae3bc87c-1fc3-48a6-be95-5efd14fed26b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +18,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1X7ssM4G829p8rpfYtlFZh5DTYV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Repo\IntelliJ\RefactorBMI\JunitBmi" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XRoaele2SdSuOXYchYjTTQwMFE" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BMI_Calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,19 +47,25 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="BmiCalculator" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="testBmiCalculator.testCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bmi" />
+      <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
+      <option name="METHOD_NAME" value="testCalculator" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.testBmiCalculator.testCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -60,23 +74,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c441bdbb-3665-4df5-8ac8-f191f5102b88" name="Default Changelist" comment="" />
-      <created>1580408673025</created>
+      <changelist id="ae3bc87c-1fc3-48a6-be95-5efd14fed26b" name="Default Changelist" comment="" />
+      <created>1581018332254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580408673025</updated>
+      <updated>1581018332254</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
