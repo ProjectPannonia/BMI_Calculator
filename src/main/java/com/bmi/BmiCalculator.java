@@ -17,6 +17,7 @@ public class BmiCalculator {
     private String giveTheResult(double height, double weight) {
         String result;
         boolean isNotZero = isValidArguments(height, weight);
+
         if (!isNotZero) {
             result = "Hiba a bevitt adatokban!\n Az adat nem lehet nulla.";
         } else {
