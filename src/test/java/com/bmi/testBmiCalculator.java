@@ -9,12 +9,14 @@ public class testBmiCalculator {
     BmiCalculator firstCalculator = null;
     BmiCalculator secondCalculator = null;
     BmiCalculator thirdCalculator = null;
+    BmiCalculator fourthCalculator = null;
 
     @Before
     public void init(){
         firstCalculator = new BmiCalculator(180,90);
         secondCalculator = new BmiCalculator(165,75);
         thirdCalculator = new BmiCalculator(200,105);
+        fourthCalculator = new BmiCalculator(200,70);
     }
     @Test
     public void testFirstCalculator(){
@@ -40,8 +42,19 @@ public class testBmiCalculator {
         String result = thirdCalculator.calculate();
         assertEquals(expectedString,result);
     }
+    @Test
+    public void testFourthCalculator(){
+        //Height: 200,Weight:70
+        String expectedBmi = "Enyhén sovány.";
+        String expectedString = "Your BMI is: " + 17.5 + "\n" + expectedBmi;
+        String result = fourthCalculator.calculate();
+        assertEquals(expectedString,result);
+    }
     @After
     public void setToNull(){
         firstCalculator = null;
+        secondCalculator = null;
+        thirdCalculator = null;
+        fourthCalculator = null;
     }
 }
