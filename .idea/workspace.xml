@@ -7,11 +7,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/BmiCalculator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bmi/BmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmi/BmiCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bmi/BmiCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmi/BmiCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bmi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bmi/testBmiCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bmi/testBmiCalculator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.testBmiCalculator">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bmi.Main" />
       <module name="bmi" />
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testBmiCalculator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.testBmiCalculator.testSixthCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testFifthCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testFourthCalculator" />
-        <item itemvalue="JUnit.testBmiCalculator" />
       </list>
     </recent_temporary>
   </component>
