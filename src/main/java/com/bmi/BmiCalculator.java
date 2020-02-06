@@ -10,6 +10,9 @@ public class BmiCalculator {
     }
 
     protected String calculate(){
+        if (weight == 0 || height == 0){
+            return "Hiba a bevitt adatokban!\n Az adat nem lehet nulla.";
+        }
         double weightPerThousand = height / 100;
         double bmi = weight / (weightPerThousand*weightPerThousand);
         String bmiText = String.valueOf(bmi).substring(0,4);

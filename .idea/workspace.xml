@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3bc87c-1fc3-48a6-be95-5efd14fed26b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BmiCalculator.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/BmiCalculator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmi/BmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmi/BmiCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testBmiCalculator.testFourthCalculator">
+  <component name="RunManager" selected="JUnit.testBmiCalculator.testFifthCalculator">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bmi.Main" />
       <module name="bmi" />
@@ -80,6 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testBmiCalculator.testFifthCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bmi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bmi" />
+      <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
+      <option name="METHOD_NAME" value="testFifthCalculator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testBmiCalculator.testFourthCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bmi" />
       <extension name="coverage">
@@ -91,22 +109,6 @@
       <option name="PACKAGE_NAME" value="com.bmi" />
       <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
       <option name="METHOD_NAME" value="testFourthCalculator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testBmiCalculator.testSecondCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bmi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bmi" />
-      <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
-      <option name="METHOD_NAME" value="testSecondCalculator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testBmiCalculator.testFifthCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testFourthCalculator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.testBmiCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testThirdCalculator" />
-        <item itemvalue="JUnit.testBmiCalculator.testSecondCalculator" />
       </list>
     </recent_temporary>
   </component>
