@@ -10,13 +10,21 @@ public class BmiCalculator {
     }
 
     protected String calculate(){
-        if (weight == 0 || height == 0){
-            return "Hiba a bevitt adatokban!\n Az adat nem lehet nulla.";
+        String result;
+        if (!isValidArguments(height,weight)){
+            result = "Hiba a bevitt adatokban!\n Az adat nem lehet nulla.";
+        }else {
+            double weightPerThousand = height / 100;
+            double bmi = weight / (weightPerThousand * weightPerThousand);
+            String bmiText = String.valueOf(bmi).substring(0, 4);
+            result = "Your BMI is: " + bmiText + "\n" + result(bmi);
         }
-        double weightPerThousand = height / 100;
-        double bmi = weight / (weightPerThousand*weightPerThousand);
-        String bmiText = String.valueOf(bmi).substring(0,4);
-        return "Your BMI is: " + bmiText + "\n" + result(bmi);
+        return result;
+    }
+    private boolean isValidArguments(double height,double weight){
+        //Return true - not null arguments
+        boolean isNotZero = height > 0 && weight > 0;
+        return isNotZero;
     }
     private String result(double bmi){
         String result;

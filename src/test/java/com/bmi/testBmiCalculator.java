@@ -11,6 +11,8 @@ public class testBmiCalculator {
     BmiCalculator thirdCalculator = null;
     BmiCalculator fourthCalculator = null;
     BmiCalculator fifthCalculator = null;
+    BmiCalculator sixthCalculator = null;
+
     @Before
     public void init(){
         firstCalculator = new BmiCalculator(180,90);
@@ -18,6 +20,7 @@ public class testBmiCalculator {
         thirdCalculator = new BmiCalculator(200,105);
         fourthCalculator = new BmiCalculator(200,70);
         fifthCalculator = new BmiCalculator(0,0);
+        sixthCalculator = new BmiCalculator(0,100);
     }
     @Test
     public void testFirstCalculator(){
@@ -53,10 +56,16 @@ public class testBmiCalculator {
     }
     @Test
     public void testFifthCalculator(){
-        //Test with zero
-        String expectedBmi = "Túlsúlyos.";
+        //Test with two zero argument
         String expectedString = "Hiba a bevitt adatokban!\n Az adat nem lehet nulla.";
         String result = fifthCalculator.calculate();
+        assertEquals(expectedString,result);
+    }
+    @Test
+    public void testSixthCalculator(){
+        //Test with zero height
+        String expectedString = "Hiba a bevitt adatokban!\n Az adat nem lehet nulla.";
+        String result = sixthCalculator.calculate();
         assertEquals(expectedString,result);
     }
     @After

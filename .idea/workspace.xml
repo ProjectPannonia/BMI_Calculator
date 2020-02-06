@@ -7,7 +7,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/BmiCalculator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BmiCalculator/com/company/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bmi/BmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmi/BmiCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmi/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bmi/testBmiCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmi/BmiCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmi/BmiCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bmi/testBmiCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bmi/testBmiCalculator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testBmiCalculator.testFifthCalculator">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bmi.Main" />
       <module name="bmi" />
@@ -114,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testBmiCalculator.testThirdCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testBmiCalculator.testSixthCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bmi" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bmi" />
       <option name="MAIN_CLASS_NAME" value="com.bmi.testBmiCalculator" />
-      <option name="METHOD_NAME" value="testThirdCalculator" />
+      <option name="METHOD_NAME" value="testSixthCalculator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.testBmiCalculator.testSixthCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testFifthCalculator" />
         <item itemvalue="JUnit.testBmiCalculator.testFourthCalculator" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.testBmiCalculator" />
-        <item itemvalue="JUnit.testBmiCalculator.testThirdCalculator" />
       </list>
     </recent_temporary>
   </component>
